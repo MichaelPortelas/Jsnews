@@ -31,4 +31,7 @@ fetch("http://localhost:4000/api/article")
                 this.setAttribute("class", "fa-stack fa-2x addFavorite activated")
             })
         })
-    });
+        
+    })
+    .catch(console.log("Erreur aucun produit à afficher !!")
+    );
